@@ -50,7 +50,7 @@ On Mac/Linux: `source venv/bin/activate`
 `pip install -r requirements.txt`
 
 4. **Configure environment variables:**  
-Create a `.env` file in the root directory and paste the following:
+<pre>Create a `.env` file in the root directory and paste the following:```
 
 DATABASE_HOSTNAME=localhost
 DATABASE_PORT=5432
@@ -59,7 +59,7 @@ DATABASE_PASSWORD=yourpassword
 DATABASE_NAME=yourdb
 SECRET_KEY=your-secret-key
 ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
+ACCESS_TOKEN_EXPIRE_MINUTES=30```</pre>
 
 
 5. **Run database migrations:**  
